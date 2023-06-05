@@ -1,0 +1,65 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_10\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// How can we access private data from one class to other class? \n",
+        "Explain and write down the code for it?\n",
+        "\n",
+        "class MyClass {\n",
+        "    private int privateData;\n",
+        "\n",
+        "    public void setPrivateData(int data) {\n",
+        "        privateData = data;\n",
+        "    }\n",
+        "\n",
+        "    public int getPrivateData() {\n",
+        "        return privateData;\n",
+        "    }\n",
+        "}\n",
+        "\n",
+        "public class Main {\n",
+        "    public static void main(String[] args) {\n",
+        "        MyClass obj = new MyClass();\n",
+        "\n",
+        "        // Accessing privateData using setter\n",
+        "        obj.setPrivateData(10);\n",
+        "\n",
+        "        // Accessing privateData using getter\n",
+        "        int value = obj.getPrivateData();\n",
+        "        System.out.println(\"Private Data: \" + value);\n",
+        "    }\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "haJ5RlJ7FMEF"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
