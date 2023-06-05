@@ -1,62 +1,23 @@
-{
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_04\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "\n",
-        "// prob 4 : Write a function which accepts 3 parameters. 2 integers and 1 String. If String parameter is 'add'\n",
-        "\n",
-        "// then it would add two integers. Similarly 'subs'/'multiplication'/'division'.\n",
-        "\n",
-        "\n",
-        "public class Main {\n",
-        "\n",
-        "    public static void main(String[] args) {\n",
-        "        Main obj=new Main();\n",
-        "        obj.add_twonumber();\n",
-        "    }\n",
-        "    public void add_twonumber() {\n",
-        "        int first = 10;\n",
-        "        int second = 20;\n",
-        "\n",
-        "        // add two numbers\n",
-        "        String sum = Integer.toString(first ) + Integer.toString(second);\n",
-        "        //String multiplication = Integer.toString(first )* Integer.toString(second);\n",
-        "\n",
-        "        System.out.println(first + \" + \" + second + \" = \"  + sum);\n",
-        "         \n",
-        "    }\n",
-        "}"
-      ],
-      "metadata": {
-        "id": "SkmLcZpObjdx"
-      },
-      "execution_count": null,
-      "outputs": []
+// prob 4 : Write a function which accepts 3 parameters. 2 integers and 1 String. If String parameter is 'add'
+
+// then it would add two integers. Similarly 'subs'/'multiplication'/'division'.
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        Main obj=new Main();
+        obj.add_twonumber();
     }
-  ],
-  "metadata": {
-    "colab": {
-      "name": "Welcome To Colaboratory",
-      "toc_visible": true,
-      "provenance": [],
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "display_name": "Python 3",
-      "name": "python3"
+    public void add_twonumber() {
+        int first = 10;
+        int second = 20;
+
+        // add two numbers
+        String sum = Integer.toString(first ) + Integer.toString(second);
+        //String multiplication = Integer.toString(first )* Integer.toString(second);
+
+        System.out.println(first + " + " + second + " = "  + sum);
+         
     }
-  },
-  "nbformat": 4,
-  "nbformat_minor": 0
 }
