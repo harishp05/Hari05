@@ -1,0 +1,56 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_13\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "//13.Write a Program to Reverse The String \"Welcome To Java\"?\n",
+        "\n",
+        "Public class Reverse {\n",
+        "    public static void main(String[] args) {\n",
+        "    Reverse obj=new Reverse();\n",
+        "   obj.reverse_string();\n",
+        "}\n",
+        "public void reverse_string(){\n",
+        "        String name=\"Welcome To Java\";\n",
+        "        String reversed=\" \";\n",
+        "        System.out.println(\" The string name is ==>\"+name);\n",
+        "        for(int i=0;i<name.length();i++) {\n",
+        "            reversed = name.charAt(i) + reversed;\n",
+        "        }\n",
+        "        System.out.println(\"The Reversed string==>\"+reversed);\n",
+        "        }\n",
+        "\n",
+        "    }\n"
+      ],
+      "metadata": {
+        "id": "i7C55GLqv_6W"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
