@@ -1,0 +1,52 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_05\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "//Prob 5 :  Run a for loop from 500 to 1000 where if loop finds number 808\n",
+        " then it will print the number found as 808\n",
+        "\n",
+        "import java.io.*;\n",
+        "public class Loopcondition {\n",
+        "    public static void main(String[] args) {\n",
+        "        int x=1000;\n",
+        "        for (int i=500; i<=x; i++) {\n",
+        "            int y=i;\n",
+        "            if (y==808)\n",
+        "                System.out.println(\"The number finds\"+i);\n",
+        "        }\n",
+        "    }\n",
+        " }\n"
+      ],
+      "metadata": {
+        "id": "wR9LKtDwcEXl"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
