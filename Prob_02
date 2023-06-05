@@ -1,56 +1,18 @@
-{
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_02\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "prob 2 : From Class_A, call/print an integer variable which is present is Class B. Where use constructor to reset the value of the variable from Class_A to Class B.\n",
-        "\n",
-        "public class ClassB  {\n",
-        "    public static void main(String[] args) {\n",
-        "        // Create an instance of ClassA\n",
-        "        Class_A a = new Class_A();\n",
-        "\n",
-        "        // Access the variable x from ClassA\n",
-        "        int y = a.x;\n",
-        "\n",
-        "        // Print the value of y\n",
-        "        System.out.println(\"The Value of y is \"+y);\n",
-        "    }\n",
-        "}\n",
-        "\n",
-        "public class Class_A {\n",
-        "    int x=28;\n",
-        "}\n"
-      ],
-      "metadata": {
-        "id": "fUF0vMZwaOFL"
-      },
-      "execution_count": null,
-      "outputs": []
+//prob 2 : From Class_A, call/print an integer variable which is present is Class B. Where use constructor to reset the value of the variable from Class_A to Class B.
+
+public class ClassB  {
+    public static void main(String[] args) {
+        // Create an instance of ClassA
+        Class_A a = new Class_A();
+
+        // Access the variable x from ClassA
+        int y = a.x;
+
+        // Print the value of y
+        System.out.println("The Value of y is "+y);
     }
-  ],
-  "metadata": {
-    "colab": {
-      "name": "Welcome To Colaboratory",
-      "toc_visible": true,
-      "provenance": [],
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "display_name": "Python 3",
-      "name": "python3"
-    }
-  },
-  "nbformat": 4,
-  "nbformat_minor": 0
+}
+
+public class Class_A {
+    int x=28;
 }
