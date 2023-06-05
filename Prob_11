@@ -1,0 +1,61 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_11\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// Prob 11 : If EmpNo=123 then EmpName=Jadeja. \n",
+        "Like this how can we keep 100 EmpName with its EmpId?\n",
+        "\n",
+        "import java.util.HashMap;\n",
+        "import java.util.Map;\n",
+        "\n",
+        "public class EmployeeRecords {\n",
+        "    public static void main(String[] args) {\n",
+        "        // Create a HashMap to store employee records\n",
+        "        Map<Integer, String> employeeRecords = new HashMap<>();\n",
+        "\n",
+        "        // Add employee records to the HashMap\n",
+        "        employeeRecords.put(123, \"Jadeja\");\n",
+        "        employeeRecords.put(456, \"Smith\");\n",
+        "        employeeRecords.put(789, \"Johnson\");\n",
+        "        // Add more employee records here...\n",
+        "\n",
+        "        // Retrieve and print an employee's name using their ID\n",
+        "        int empId = 456;\n",
+        "        String empName = employeeRecords.get(empId);\n",
+        "        System.out.println(\"Employee ID: \" + empId + \", Employee Name: \" + empName);\n",
+        "    }\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "eu-NlSA2HD3u"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
