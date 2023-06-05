@@ -1,0 +1,65 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_08\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// String a = \"Welcome To Java\" , count the number of space present in the sentense \n",
+        "and print only \"Welcome\" using array\n",
+        "\n",
+        "import java.io.*;\n",
+        "public class Count_Space {\n",
+        "static int i,c=0,x;\n",
+        "   static int spacecount(String s) {\n",
+        "        for(i=0; i<s.length(); i++) {\n",
+        "            char ch=s.charAt(i);\n",
+        "            if(ch==' ')\n",
+        "                c++;\n",
+        "        }\n",
+        "        return c;\n",
+        "    }\n",
+        "\n",
+        " public static void main (String args[]) {\n",
+        "        x=SpaceCount.spacecount(\"Welcome  To  Java\");\n",
+        "        System.out.println(\"Count the number of space present in the String :  \"+x);\n",
+        "        String X1[] = new String[3];\n",
+        "        X1[0] = \"Welcome\";\n",
+        "        X1[1] = \"To\";\n",
+        "        X1[2] = \"Java\";\n",
+        "        for (int i = 0; i < 1; i++) {\n",
+        "            System.out.print(X1[i] + \" \");\n",
+        "        }\n",
+        "    }\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "rJkooLEtf2lQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
