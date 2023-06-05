@@ -1,0 +1,60 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_14\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "// 14.Write a Java Program to Print Current Date and return it as a String\n",
+        "\n",
+        "import java.time.LocalDate;\n",
+        "import java.time.format.DateTimeFormatter;\n",
+        "\n",
+        "public class Date {\n",
+        "    public static String getCurrentDateAsString() {\n",
+        "        // Get the current date\n",
+        "        LocalDate currentDate = LocalDate.now();\n",
+        "\n",
+        "        // Format the date as a string\n",
+        "        DateTimeFormatter Str = DateTimeFormatter.ofPattern(\"yyyy-MM-dd\");\n",
+        "        String formattedDate = currentDate.format(Str);\n",
+        "\n",
+        "        return formattedDate;\n",
+        "    }\n",
+        "\n",
+        "    public static void main(String[] args) {\n",
+        "        String currentDate = getCurrentDateAsString();\n",
+        "        System.out.println(\"Print the today Date: \" + currentDate);\n",
+        "    }\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "fLNhuVoOjd-s"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
