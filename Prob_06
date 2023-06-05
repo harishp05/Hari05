@@ -1,0 +1,56 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_06\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "//Prob 6 : Write a program where create an int type arraylist object.\n",
+        " Then add 200 to 500 numbers into the ArrayList then Print the ArrayList\n",
+        "\n",
+        "import java.io.*;\n",
+        "import java.util.ArrayList;\n",
+        "public class Array1\n",
+        "{\n",
+        "    public static void main(String[] args)\n",
+        "    {\n",
+        "        int n=500;\n",
+        "        ArrayList<Integer> list = new ArrayList<Integer>();\n",
+        "       for (int i=1;i<=n;i++)\n",
+        "        {\n",
+        "            List.add(i); \n",
+        "        }\n",
+        "      System.out.println(\"Array List:\"+List);\n",
+        "    }      \n",
+        "}\n"
+      ],
+      "metadata": {
+        "id": "g8TLUWTxcyGE"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
