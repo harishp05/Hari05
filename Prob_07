@@ -1,0 +1,56 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_07\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "//Prob 7 :  find the value of C in below Program and return it?\n",
+        "public class Sum {\n",
+        "    public static void main(String[] args) {\n",
+        "        Sum obj=new Sum();\n",
+        "        obj.return_type();\n",
+        "\n",
+        "    }\n",
+        "    public int return_Number(){\n",
+        "        int c=0;\n",
+        "        float a = 7.8f;\n",
+        "        float b = 4.4f;\n",
+        "        //converting float into int\n",
+        "         int C=(int)a+(int)b;\n",
+        "        System.out.println(\"The value of C is==>\"+C);\n",
+        "        return C;\n",
+        "\n",
+        "    }\n",
+        "}\n"
+      ],
+      "metadata": {
+        "id": "ANE5PbMHdOOO"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
