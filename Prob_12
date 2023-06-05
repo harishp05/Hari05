@@ -1,61 +1,23 @@
-{
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_12\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "// 12.Java Program to Count Number of Objects Created for Class?\n",
-        "public class CountObject  \n",
-        "{  \n",
-        "//variable to keep track of objects  \n",
-        "private static int count;  \n",
-        "//constructor of the class  \n",
-        "public CountObject()   \n",
-        "{  \n",
-        "// increase the count variable by 1  \n",
-        "count++;  \n",
-        "}  \n",
-        "public static void main(String args[])   \n",
-        "{  \n",
-        "//creating objects  \n",
-        "CountObject ob1 = new CountObject();  \n",
-        "CountObject ob2 = new CountObject();  \n",
-        "CountObject ob3 = new CountObject();  \n",
-        "CountObject ob4 = new CountObject();  \n",
-        "CountObject ob5 = new CountObject();  \n",
-        "//prints number of objects  \n",
-        "System.out.print(\"Total Number of Objects: \" + CountObject.count);  \n",
-        "}  \n",
-        "}  "
-      ],
-      "metadata": {
-        "id": "G4CvoLZMu8n6"
-      },
-      "execution_count": null,
-      "outputs": []
-    }
-  ],
-  "metadata": {
-    "colab": {
-      "name": "Welcome To Colaboratory",
-      "toc_visible": true,
-      "provenance": [],
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "display_name": "Python 3",
-      "name": "python3"
-    }
-  },
-  "nbformat": 4,
-  "nbformat_minor": 0
-}
+// 12.Java Program to Count Number of Objects Created for Class?
+public class CountObject  
+{  
+//variable to keep track of objects  
+private static int count;  
+//constructor of the class  
+public CountObject()   
+{  
+// increase the count variable by 1  
+count++;  
+}  
+public static void main(String args[])   
+{  
+//creating objects  
+CountObject ob1 = new CountObject();  
+CountObject ob2 = new CountObject();  
+CountObject ob3 = new CountObject();  
+CountObject ob4 = new CountObject();  
+CountObject ob5 = new CountObject();  
+//prints number of objects  
+System.out.print("Total Number of Objects: " + CountObject.count);  
+}  
+}  
