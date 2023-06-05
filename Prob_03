@@ -1,0 +1,60 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_03\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "//Prob 3: Write a java program which will throw an exception error for an AGE field if we pass age below 25 and above 55.\n",
+        "import java.io.*;\n",
+        "public class Exceptionthrow\n",
+        "{\n",
+        "    public static void Valid_age(int AGE)\n",
+        "    {\n",
+        "       if (AGE<25 || AGE>55)\n",
+        "       {\n",
+        "          throw new ArithmeticException(\"AGE is invalid\");\n",
+        "       }\n",
+        "     else \n",
+        "     {\n",
+        "        System.out.println(\"AGE is valid\");\n",
+        "     }\n",
+        "    }\n",
+        "\n",
+        "        public static void main(String[] args)\n",
+        "        {\n",
+        "            validate(19);\n",
+        "        }\n",
+        "\n",
+        "}\n"
+      ],
+      "metadata": {
+        "id": "cH7em_qIa16v"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
