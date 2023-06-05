@@ -1,0 +1,54 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harishp05/Hari05/blob/main/Prob_01\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "//Prob 1 . Write a java program to add two float numbers like 8.6 and 9.7.\n",
+        "\n",
+        "import java.io.*;\n",
+        "public class Floatnumber\n",
+        "{\n",
+        "    public static void main (String[] args)\n",
+        "    {\n",
+        "        float a=8.6f;\n",
+        "        float b=9.7f;\n",
+        "        float sum=a+b;\n",
+        "\n",
+        "        System.out.println(\"Enter the number 1-\"+a);\n",
+        "        System.out.println(\"Enter the number 2-\"+b);\n",
+        "        System.out.println(\"Add two float number-\"+sum);\n",
+        "    }\n",
+        "}"
+      ],
+      "metadata": {
+        "id": "JqWll4P1Wh2o"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
